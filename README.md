@@ -1,5 +1,5 @@
 # -SmartFireAlarm-Audio-Processing-WiFi-Alert-with-ESP32-FreeRTOS-
-**Project Description:
+**Project Description:**
 
 The project is an implementation of a sound monitoring and notification system using an ESP32 microcontroller board. The system is designed to detect specific frequencies in the surrounding environment and generate alarms or notifications accordingly. It utilizes the ESP32's built-in I2S interface for audio input, performs Fast Fourier Transform (FFT) analysis on the captured audio samples, and applies signal processing techniques to detect specific frequencies of interest.
 
