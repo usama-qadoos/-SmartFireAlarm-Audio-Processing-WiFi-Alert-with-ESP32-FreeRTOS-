@@ -4,6 +4,7 @@
 The project is an implementation of a sound monitoring and notification system using an ESP32 microcontroller board. The system is designed to detect specific frequencies in the surrounding environment and generate alarms or notifications accordingly. It utilizes the ESP32's built-in I2S interface for audio input, performs Fast Fourier Transform (FFT) analysis on the captured audio samples, and applies signal processing techniques to detect specific frequencies of interest.
 
 The system consists of the following main components:
+
 **1. ESP32 Microcontroller:** The ESP32 board serves as the main control unit of the system. It handles the audio input, signal processing, frequency detection, and communication tasks.
 
 **2. I2S Interface:** The ESP32's I2S interface is used to capture audio samples from an external microphone or audio source. The I2S interface is configured to receive audio data in 32-bit format at a specific sample rate.
